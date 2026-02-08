@@ -67,7 +67,7 @@ export default function DashboardPage() {
             <Fuel className="w-5 h-5 text-white" />
           </div>
           <div>
-            <p className="font-bold text-gray-800">FuelFlow</p>
+            <p className="font-bold text-gray-800">AMU CAW Pump</p>
             <p className="text-xs text-gray-500">Admin Portal</p>
           </div>
         </div>
