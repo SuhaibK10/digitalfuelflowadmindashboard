@@ -100,16 +100,28 @@ export default function DashboardPage() {
 
       {/* Main Content */}
       <main className="md:ml-64 p-6">
-        {/* Mobile Header */}
-        <div className="md:hidden flex items-center justify-between mb-6">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
-              <Fuel className="w-5 h-5 text-white" />
-            </div>
-            <span className="font-bold">FuelFlow Admin</span>
-          </div>
-          <button onClick={logout}><LogOut className="w-5 h-5 text-gray-600" /></button>
-        </div>
+     {/* Mobile Header */}
+<div className="md:hidden flex items-center justify-between mb-6">
+  <div className="flex items-center gap-3">
+    <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
+      <Fuel className="w-5 h-5 text-white" />
+    </div>
+
+    <div>
+      <p className="font-bold text-gray-800 leading-tight">
+        AMU CAW Petrol Pump
+      </p>
+      <p className="text-xs text-gray-500">
+        Admin Portal
+      </p>
+    </div>
+  </div>
+
+  <button onClick={logout}>
+    <LogOut className="w-5 h-5 text-gray-600" />
+  </button>
+</div>
+
 
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
